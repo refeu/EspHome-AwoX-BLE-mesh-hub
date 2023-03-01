@@ -228,6 +228,7 @@ class DeviceInfoResolver {
     // this->add_device(DEVICE_TYPE_TW, 0x6A, "SmartLIGHT Bulb A60 Warm", "SMLm_w9w", MANUFACTURER_AWOX);
     // this->add_device(DEVICE_TYPE_TW, 0x6F, "EGLOBulb Filament G80", "ESMLFm-w6-G80", MANUFACTURER_EGLO);
     // this->add_device(DEVICE_TYPE_TW, 0x71, "EGLOBulb Filament ST64", "ESMLFm-w6-ST64", MANUFACTURER_EGLO);
+    this->add_device(DEVICE_TYPE_TW, 0x74, "Awox Surface square", "EFueva_300s", MANUFACTURER_AWOX);
     // this->add_device(DEVICE_TYPE_TW, 0x75, "EGLOBulb Filament G95", "ESMLFm-w6-G95", MANUFACTURER_EGLO);
     // this->add_device(DEVICE_TYPE_RGB, 0x77, "EGLO Spot", "ESpot_c5", MANUFACTURER_EGLO);
     // this->add_device(DEVICE_TYPE_RGB, 0x78, "EGLO Fraioli", "EFraioli_c17", MANUFACTURER_EGLO);
