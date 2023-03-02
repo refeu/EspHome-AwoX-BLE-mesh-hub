@@ -197,8 +197,9 @@ class DeviceInfoResolver {
     // "ESMLm_c5_E14", MANUFACTURER_EGLO); this->add_device(DEVICE_TYPE_RGB, 0x3F, "EGLO Surface round", "EFueva_225r",
     // MANUFACTURER_EGLO); this->add_device(DEVICE_TYPE_RGB, 0x40, "EGLO Surface square", "EFueva_225s",
     // MANUFACTURER_EGLO); this->add_device(DEVICE_TYPE_RGB, 0x41, "EGLO Surface round", "EFueva_300r",
-    // MANUFACTURER_EGLO); this->add_device(DEVICE_TYPE_RGB, 0x42, "EGLO Surface square", "EFueva_300s",
-    // MANUFACTURER_EGLO); this->add_device(DEVICE_TYPE_RGB, 0x43, "SmartLIGHT Color Mesh 9W", "SMLm_c9s",
+    // MANUFACTURER_EGLO); 
+    this->add_device(DEVICE_TYPE_RGB, 0x42, "EGLO Surface square", "EFueva_300s", MANUFACTURER_EGLO); 
+    // this->add_device(DEVICE_TYPE_RGB, 0x43, "SmartLIGHT Color Mesh 9W", "SMLm_c9s",
     // MANUFACTURER_AWOX); this->add_device(DEVICE_TYPE_RGB, 0x44, "SmartLIGHT Color Mesh 13W", "SMLm_c13gs",
     // MANUFACTURER_AWOX); this->add_device(DEVICE_TYPE_RGB, 0x45, "EGLOBulb A60 9W", "ESMLm_c9s", MANUFACTURER_EGLO);
     // this->add_device(DEVICE_TYPE_RGB, 0x46, "EGLOBulb G95 13W", "ESMLm_c13gs", MANUFACTURER_EGLO);
@@ -228,7 +229,6 @@ class DeviceInfoResolver {
     // this->add_device(DEVICE_TYPE_TW, 0x6A, "SmartLIGHT Bulb A60 Warm", "SMLm_w9w", MANUFACTURER_AWOX);
     // this->add_device(DEVICE_TYPE_TW, 0x6F, "EGLOBulb Filament G80", "ESMLFm-w6-G80", MANUFACTURER_EGLO);
     // this->add_device(DEVICE_TYPE_TW, 0x71, "EGLOBulb Filament ST64", "ESMLFm-w6-ST64", MANUFACTURER_EGLO);
-    this->add_device(DEVICE_TYPE_RGB, 0x74, "Awox Surface square", "EFueva_300s", MANUFACTURER_AWOX);
     // this->add_device(DEVICE_TYPE_TW, 0x75, "EGLOBulb Filament G95", "ESMLFm-w6-G95", MANUFACTURER_EGLO);
     // this->add_device(DEVICE_TYPE_RGB, 0x77, "EGLO Spot", "ESpot_c5", MANUFACTURER_EGLO);
     // this->add_device(DEVICE_TYPE_RGB, 0x78, "EGLO Fraioli", "EFraioli_c17", MANUFACTURER_EGLO);
